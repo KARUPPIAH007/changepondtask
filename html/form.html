@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Form </h2>
+    <form action="" method="post">
+        <div>
+        <label for="fname"> Enter your Full name : </label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your name"
+         minlength="4" maxlength="15" pattern="*[A-Za-z]" required> 
+        </div> <br>
+        <div>  
+            <label for="pass"> Enter your password : </label>
+            <input type="password" name="pass" id="pass" placeholder="Enter your password" 
+            minlength="8" maxlength="25" required>
+        </div> <br>
+        <div>  
+            <label for="email"> Enter your Email : </label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+        </div> <br>
+        <div>  
+            <label for="contact"> Enter your phone no  : </label>
+            <input type="tel" name="contact" id="contact" placeholder="Enter your phone no"
+            pattern="[0-9][9-11]"  maxlength="10" required>
+        </div> <br>
+        <div>  
+            <label for="time"> Enter your time  : </label>
+            <input type="time" name="time" id="time" placeholder="Enter your time"
+            required>
+        </div> <br>
+
+        <div>  
+            <label for="dob"> Enter your date of birth  : </label>
+            <input type="date" name="dob" id="dob" placeholder="Enter your date of birth"
+            required>
+        </div> <br>
+        <div>  
+            <label for="age"> Enter your age : </label>
+            <input type="number" name="age" id="age" placeholder="Enter your age"
+             min="18" max="60">
+        </div> <br>
+
+        <div>
+            <label for="radio"> Select your gender </label>
+            <input type="radio" name="radio"  id="radio" value="Male"> Male
+            <input type="radio" name="radio" id="radio" value="Female"> Female
+            <input type="radio" name="radio" id="radio"value="Trans"> Trans
+        </div> <br>
+        <div>
+            <label for="edu"> Select your Education </label>
+            <input type="checkbox" name="edu" id="edu" value="UG"> UG
+            <input type="checkbox" name="edu" id="edu" value="PG"> PG
+            <input type="checkbox" name="edu" id="edu" value="MBA"> MBA
+            <input type="checkbox" name="edu" id="edu" value="BTECH"> BTECG
+            <input type="checkbox" name="edu" id="edu" value="SSC"> SSC
+        </div> <br>
+
+        <div>
+            <label for="course"> Enter the Course </label>
+            <select name="course" id="course" required>
+                <option value=""> Select option from lists </option>
+                <option value="React">React </option>
+                <option value="React">java </option>
+                <option value="React">sql </option>
+                <option value="React">python </option>
+            </select>
+        </div> <br>
+    <button type="submit"> SUMBIT </button>
+    <button type="reset"> RESET </button>
+    </form>
+</body>
+</html>

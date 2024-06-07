@@ -1,0 +1,120 @@
+5/6/254
+
+CSS : it is use to design the website or webapp.
+      it makes web app attractive, responsive.
+      it latest version of css is css3.
+      css stand for cascading style sheet.
+
+1. what are types of css?
+2. How manys ways you can use css?
+
+=> There are 3 ways to use css :
+1. Inline css : In starting tag we write style attribute with property and value.
+2. Internal  css : In html file we use style tag and in that we write css code.
+                  Syntax : Selector 
+                  {
+                        property:value;
+                        property:value;
+                        property:value;
+                  }
+3. External css : In this we create a separate css file and that css file we import in html file by using link tag.
+                   Syntax : Selector
+                   {
+                        property:value;
+                        property:value;
+                        property:value;
+                  }
+
+Selector in css : Selecting an element
+1. Element name Selector : In this we use element name to apply css property.
+2. group selector : we can make a group of selector name.
+3. id selector(#) : when we have apply css property to single element only.
+4. class selector(.) : when we have apply bunch of css property to multiple element.
+5. universal selector : it apply css property to all element available in webpage.
+
+how to use inspect element 
+border property
+border radius
+
+box model
+1. content : it can be any text or image.
+2. padding : it is use to clear area between content and element border.
+3. border : a line drown around an element.
+4. margine : it is use to clear area abound element outside border.
+
+position : it is use to move element after left,right,top and bottom value.
+            because every element has by default position :: static that why element will never move 
+            after applying left,right,top and bottom value.
+position :: static : default
+position : relative // element can move by using left,right,top and bottom value.
+position : absolute // when we want child element must move according its padding element.
+                        in this case parent element must have position:relative and child element 
+                        must have position:absolute.
+position : fixed // when you have to fix element on view point (screen)
+position : sticky // it is use to stick  element to screen border.
+
+z-index : it is use to decise stack priority of an element.
+          it has two value 1 and -1 ;
+          1- means high priority
+          -1 - means low priority
+
+hover : it is psudo class which apply css property after mouse on on that element.
+
+====================================================================================================
+6/6/24
+
+Background image property
+opacity : it is use to make element Background transparent.
+          it value vary in between 0 and 1.
+visiblity hidden : element will be hidden but space will be never occupied by adjacent element.
+display : none // element will hidden but space will be occupied by adjacent element.
+
+display : block // it is use to convert in line elemnt into block.
+display : inline // it is use to convert block element into inline.
+display : inline-block // it is ud=se to when you have height and width it inline element.
+
+float : it is use to float element either left or right direction
+float : left;
+float : right;
+float : none;
+float : inherit;
+
+
+overflow : it is use to fit big content into small area.
+overflow : visible; default
+overflow : hidden; oustide content will be hidden.
+overflow : scroll; it will add scroll bar.
+overflow : auto; it will add scroll bar when it is necssary.
+
+navigation bar : it is a collection link which allows us to redirect to another location
+1. vertical nav  bar : 
+2.horizontal nav bar : 
+
+pesudo class : these are inbuilt classes provided by css to us 
+1.link,visted,hover,attractive
+
+combinator : it tells relation between selector :
+1.descendant selector(space) :
+2.child selector(>) :
+3.adjacent sibling selectors(+) :
+4.general sibling selectors (~) :
+
+box -sizing : it include element padding and border sixe its actual width.
+
+mediaquery : it is use to apply different style rule to an element according to different screen width.
+Syntax : @media screen and (breakpiont)
+{
+      css property for selector or element.
+}
+
+max-width : css property will be applicable till its maximum define width;
+min-width : css property will be applicable from its minimum width to above.
+
+screen width : >=1200px //it will be extra large screen.
+screen width : >=992px // it will be large screen.
+screen width : >=768px // it will be medium screen.
+screen width : >=576px // it will be small screen.
+screen width : <576px // it will be extra small screen.
+
+display :flex // it is use to manage child elemnt inside parent element according to different screen width
+in this parent element must have display :flex property.

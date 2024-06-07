@@ -1,0 +1,126 @@
+4/6/2024
+
+
+Html :
+ -It is use to create structure of webpage or website.
+ it is use to display data to user on browser.
+ it is tag basics language.
+ it hyper text markup language.
+ it latest version is html 4.
+
+
+ what is tag
+ <tag>
+   in html we have two types :
+      1. paried tag : <starting tag> content </end tag>
+      2. unpaired tag : <<single tag>
+
+      to displayed all information for that we have tag
+
+      Steps to create a html file
+
+      create a html file with .html or .htm extension
+      write html code
+      execute file on browser 
+
+<!Doctype html> tells search enginee it is a html type of document
+
+<HTML> root tag 
+<HEAD> contains meta data
+<BODY>  display the data on browser
+
+
+Element :
+<starting tag attribute ="Value"> content or info </end tag>
+attribute : it will give us additional information about tag.
+            it will comes in key value paried format.
+            it always write in starting tag.
+
+
+In html we have 2 types of elements :
+            1. Block Element :  The Element which take 100% width of its screen.
+                                 and it always start on new line.
+                                 ex : h1,h2,h3,h4,h5,h6,p,u1,table,form.
+            
+            2.Inline Element : The Element will takes required width of it.
+                                it will never start on new line.
+                                ex : b,i,u,img,a.
+
+Meta tag : it provide information about data.
+
+Lists : It is collection of items.
+we have 3 types of lists:
+  1. Order lists(ol,li)  type : number,a,b,A,B,i,ii,iii,I,II,III
+  2. unorder lists(ul,il) type : disc , circle , square,none.
+  3. Decsription lists : It contain three tag, it introduce in html 
+                          dl : description Lists
+                          dt : define term 
+                          dd : define description
+
+
+
+what is html and html5 ?
+what are feature of html5?
+
+
+symantic elements introduce .
+New Input type, new tag and attribute introduce.
+mutlimedia Element introduce : we can add aufdio and video file in webpage.
+Html API introduce.
+1. Geolocation : It return user current postion , for this in your system gps must be there.
+2. Drag and drop : Grabing a object from one location and drag at another place.
+3. Web - Worker: it is small js code which execute at backend of web application, 
+                  without affecting its current execution.
+4. *****Web  Storage : it is store data on browser.
+      1. local storage : it is use to store user data for permantly.
+      2. session storage : it is use to store user data for limited time.
+5. SSE(Server sent Event) : It allows user to get automatic updated from server.
+
+symantic element : The Elements which has specific meaning.
+ex : header, footer,nav,section,address.
+
+why there is neccesity they introduce symanyic element:
+In old html they were no symantic elements so developer use own naming convetion for the website this make different for seacrh enginee to identify correct content in website or a webapplication that is why symantic elements gets  introduce it helps both search enginee as well as developer to identify correct contain into your web application.
+
+how to insert image by using relative path?
+how to insert video file?
+how to insert audio file?
+
+iframe : it is use to create small window on browser.
+      1. we can insert google map location in web page.
+      step1 : search location on google map.
+      step2 : click on shared => emded a map => 
+      2. we can insert youtube video.
+      3. insert one website into another website.
+
+=====================================================================================================
+5/6/24
+
+Links : to redirect from one page to another page.
+        in html we use anchor tag to create link.
+
+Table : It is collection of rows and columon.
+th -> table heading
+tr -> table row
+td -> table data
+-> row 
+coloumn
+note : In table frist we create row and then coloumn
+
+Form : it is use to get data from user
+
+button 
+reset
+menu
+submit
+
+form data to be sumbitted 
+
+to submit we have two method 
+1. Get : when our aim is to create simple and small form
+         we do not submit essential data
+         user data will be vissible on browser url.
+         browser url has character  limitation.
+2. post : when our aim is to submit confidentaial data.
+          data will be not vissible to user.
+          there is no character limitation.
