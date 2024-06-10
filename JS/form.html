@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" class="mi">
+        <div>
+        <label for="fname"> Enter your Full name : </label>
+        <textarea type="text" name="fname" id="num1" placeholder="Enter your name">
+    </textarea>
+    <textarea type="text" name="fname" id="num2" placeholder="Enter your name"> 
+    </textarea>
+    </div>
+    <button type="button" onclick="bottom()" > submit</button> 
+
+    <script>
+        function bottom(){
+            document.getElementById("num2").innerHTML=document.getElementById("num1").value
+        }
+    </script>
+    
+    
+</body>
+</html>

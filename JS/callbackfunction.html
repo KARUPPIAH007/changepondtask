@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function greeting() {
+            return "good morning";
+        }
+        document.write(greeting()+"<br>");
+
+        function welcome(company,greeting){
+            return `Welcome you to all ${company} <br> ${greeting()}`;
+        }
+        document.write(welcome("Changepond",greeting));
+        
+        setTimeout(() => {
+            window.alert("It eceute bafter 2 second");
+            
+        }, 2000);
+
+        // use of setinterval
+        let count=0;
+        setInterval(() => {
+            console.log(count = count+1);
+            console.log(count = count+1);
+            if(count==5){
+                exit;
+            }
+            
+        },1000);
+    </script>
+</body>
+</html>

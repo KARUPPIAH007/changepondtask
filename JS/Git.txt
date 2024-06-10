@@ -1,0 +1,11 @@
+Step1 : create remote respository
+step2: create folder and open in vs code editor and write code in it.
+step3: open terminal with option gitbash
+step4: in terminal write
+            git int
+
+step5:  configure remote respository with local respository
+        git remote add origin https://github.com/KARUPPIAH007/Task1.git
+step6: commit code
+step7: go to terminal and write 
+       git push -u origin master

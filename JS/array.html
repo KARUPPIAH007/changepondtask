@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let courses =["React","Python","java", "Angular"];
+        console.log(courses);
+        console.log(courses.length);
+        console.log(courses.length-1);
+        console.log(courses[1]);
+
+        // how to manipulate array data
+        courses[2]="Advanced java";
+        console.log(courses+",");
+
+        for(let i=0;i<=courses.length-1;i++){
+        document.write(courses[i]+",");
+        }
+    // for of : it will return array values.
+
+    for(let course of courses){
+        document.write(course+",");
+    }
+
+
+    // 1.push(): it allows us to insert data at last index of an array.
+    courses.push("Nodejs",
+        "html" ,"css");
+    document.write(courses,"<br>");
+
+    // 2.pop(): it is use top remove values from last index of an array, it remove single value at a time.
+    courses.pop();
+    document.write(courses,"<br>");
+
+    // 3.unshift:
+    courses.unshift();
+    document.write(courses,"<br>");
+    //  4.shift
+    courses.shift();
+    document.write(courses,"<br>");
+
+    // 5.splice
+    courses.splice(2,0,"saacs" , "typescirpt");
+    document.write(courses,"<br>");
+
+
+
+    </script>
+</body>
+</html>

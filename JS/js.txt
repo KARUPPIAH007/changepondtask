@@ -1,0 +1,82 @@
+7/6/24
+
+
+Java sript : it is use to add functionality and behaviour into webapp.
+             it is interpreted language.
+             it is loosely typed language.
+
+there are 2 ways to use javascript
+1.internal js: In html file we use script and in that script we write js code.
+2.external js: First we created a seperate js file and that js file we import in html file by using script tag.\
+
+how to display outside in js:
+1.document.write(); it will display output on webpage or html page. it display output in single line.
+2.windows.alert(); it will generate one pop up window and display output in it.
+3.console.log(); it will give output in browser console or in it.
+4.innerHtml(DOM); it allows us to insert data inside and element.
+================================================================================================================
+10/6/24
+
+in js window is global object.
+By using DOM how to set get value from element.
+hoe to apply style to an element by using DOM
+
+function :
+it is block of code , which is use to perform specific task.
+it will execute only when we call it.
+
+There are mainly 2 types of function:
+1.pre define: Provided by javascript
+2.user define: created by user
+
+2009(ECMA script-5)
+2015(ECMA script-6)
+
+data type in javascript
+there are 2 types of adata type:
+1.primitive data type : number,string,boolean,undefine,null;
+2.non-primitive data type : array,object
+
+array:
+it is use to store multiple value with same datatype in single variable.
+in array value store on index basics.
+array index always start from zero index.
+array represented by square [] bracket.
+
+we can access array data outside array by writing arrayname[indexnumber]
+
+arraylength: total number of values available in it.
+syntax: arrayname.length
+
+array-size: total number of index
+syntax : arrayname.length-1.
+
+
+array methods
+
+object data type;
+
+it is use to store multiple values with different datatype in single varaiable.
+in object data store in key and value pair formate.
+we can access object data outside for that we write object keyname.
+object denoted by {}
+
+
+how to change object data;
+array of object
+how to change method images
+
+call back function: passing one function as an arugment inside another function is called call back function.
+
+settimeout: it will call another method only once after particular time interval.
+            it takes two parameter 1.callback function,2.time in millisecond.
+
+setinterval method: it will call another method  multiple time after particular time interval.
+                    it takes two parameter 1. call back function 2. time in millisecond.
+
+both are inbuilt method.
+
+Date and its method
+if you want to get date and time in web page by using javascript for that First we have create object of date class.
+
+syntax: let dateobj=new  Date();

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="d1"></h1>
+    <h1 id="d2"></h1>
+    <h2 id="d3"> Good Morning</h2>
+    <script>
+        //.1.document.write()
+        document.write("Welcome to changepond <br>");
+        document.write(100+400);
+
+        //.2.windows.alert()
+        window.alert("How are you man ");
+        window.alert(100+400);
+
+        //3.console.log()
+        console.log(" Dei machan");
+        console.log(100+400);
+
+        document.getElementById("d1").innerHTML="KARUPPIAH SARAVANAN";
+        document.getElementById("d2").innerHTML=" JENNI";
+
+        // console.log(document.getelementId("d1"));
+        // we set color
+        document.getElementById("d1").style.color="blue";
+        document.getElementById("d2").style.background="green";
+
+        // HAVE WE GET DATA BY USING DOM
+        let data=document.getElementById("d3").innerHTML;
+        console.log(data);
+    </script>
+</body>
+</html>

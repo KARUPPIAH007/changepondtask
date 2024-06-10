@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="../assets/images/lal.jfif" alt="fighter" id="img" width="200px" height="200px"> <br>
+    <strong id="imgName">Fighter</strong> <br>
+    <button type="button" onclick="changeImage()">Change Image</button>
+
+    <script>
+        function changeImage() {
+            var img = document.getElementById("img");
+            var imgName = document.getElementById("imgName");
+
+            if (img.src.includes("lal.jfif")) {
+                img.src = "../assets/images/pexels-paulita-129464.jpg";
+                imgName.innerHTML = "fighter1";
+            } else {
+                img.src = "../assets/images/lal.jfif";
+                imgName.innerHTML = "Fighter";
+            }
+        }
+    </script>
+</body>
+</html>

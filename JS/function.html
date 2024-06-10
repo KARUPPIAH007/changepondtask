@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <script>
+        // 1.simple function
+        function greeting(){
+            return "good morning jenni";
+        }
+
+        document.write(greeting(),"<br>")
+        let greed=greeting();
+        document.write(greed,"<br>");
+    
+        // 2.parameterized function
+        function welcome(std1,std2,std3,std4){
+            return `welcome you ${std1} ${std2} ${std3} ${std4}`;
+        }
+        // document.write(welcome("karuppiah"),"<br>");
+        // document.write(welcome("jenni"),"<br>");
+        // document.write(welcome("kiruthiga"),"<br>");
+        // document.write(welcome("saji"),"<br>");
+
+
+        document.write(welcome("karuppiah","jenni","kiruthiga","saji"),"<br>")
+
+
+        // 3. anonymous function: function with no name is called anonymous functio.
+        let add= function (){
+            return 100+200;
+        }
+
+        document.write(add(),"<br>");
+        let add1= function (num1,num2){
+            return num1+num2;
+        }
+
+        document.write(add1(200,500),"<br>");
+
+    // 4.arrow function: function with no name and no fuction keyword is called arrow function with arrow    symbol (=>) after parenthesics
+
+    let sub=()=> {
+        return 500-100;
+    };
+    document.write(sub(),"<br>");
+
+    let sub1=(num1,num2) => num1-num2;
+
+    document.write(sub1(1000,700),"<br>");
+
+
+    // 5.optional parameterized function : when parameter is optional in function it is called optional function.it always write at last with default value in parantheiscs.
+    
+    let fulname=(fname,lname,mname="",address) => {
+        return `${fname} ${lname} ${mname} ${address}`;
+    }
+
+    document.write(fulname("karuppiah","wakhede"),"<br>");
+    document.write(fulname("karuppiah","Pune","M"),"<br>");
+    document.write(fulname("karuppiah","Pune","M","pune"),"<br>");
+    
+    // 6.rest parameterize function when we don`t know how many parameterizes are required in function in that case we use it.in this we use spread opertaor(...)
+
+    let emplist= (...std)=>{
+        return std;
+    }
+
+    document.write(emplist("rahul","adesh","sri","vig"),"<br>");
+    
+</script>
+
+</body>
+</html>
