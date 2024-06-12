@@ -1,0 +1,76 @@
+12/06/24
+
+*Typescript :- it is superset of javascript.
+             - it is compile language.
+             - it is strict type language
+
+*software pre-requist:
+1.nodejs
+     - node -v // it will show node version.
+     npm -v // it will show npm version
+
+2.Typescript
+       - npm i typescript -g // it will install typescript
+       - tsc -v // it will display typescript version
+
+       
+*we can create typescript file by writting filname.tsc
+*how to execute typescript file
+step1 : filename.ts // it will compile and generate plain js file.
+step2 : nodefilename.js // it will execute js file
+
+how to create varaiable in typescript\
+syntax: let varaiable name:datatype;
+
+
+datatype in javascript
+
+oops
+1. Classes : it is collection of data-member and member-function.
+             it is template which can resuse.
+             to class we use class keyword.
+             class name start with captical letter.
+             syntax: class kar(){
+               data member & member function
+             }
+this: it represented the current object;
+
+2. object:  it is an instance of object.
+            by using object we can access class data member & member function 
+            syntax: let objectNAME =new class();
+
+construtor : it is special member function of class.
+          constructor execute automaticaltty when class object is created or initalixe.
+          constructor name must bo only construtor in typescript.
+
+3. Inheritance: accessing parent class property in child class.
+                to perform inheritance in between two class we use "extends" keyword.
+
+                syntax : class childClassName Extends parentclassname.
+     super() : ir represented parent class constructor in child class.
+
+4  Encalpsulation: wrapping of data into single unit.
+5. Adstraction: hidding implementation and showing only functionality.
+                    we can achieve by using interface and abstract method , static keyword.
+
+access specifier: 
+     public : we can access property inside same class , outside class and in child class also.
+     protected : we can access property inside  same class, in child class nut not in outside class. 
+     private : we can access class property within same class.
+
+
+6  polymorphism: ability to take more than one form.
+ Method overloading : in this we have multiple method with same in same class.
+ Method Overriding : in this we have mutliple method with same name in different classes.
+
+ interface: it is signature of class.
+            it contain abstract method in it.
+            its child class has reponsibilty to implement interface.
+            we create interface by using interface.
+            to perform inheritance we use in between class and interface we use implentation keyword.
+
+* Module in typescript : it can be collection of single or mutliple typescript file containting code with specific  
+                         purpose.
+                         That data or code we can access in another file by exorting and importing.
+                         we use export keyword to send data.
+                         we use import keyword to access data.
